@@ -173,9 +173,24 @@
         left: 10%;
     }
     50% {
-        left: calc(100% - 60px);
+        left: 70%;
     }
     100% {
         left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: moveleft 2s linear;
+}
+@keyframes moveleft {
+    0% {
+        right: 20%;
+    }
+    50% {
+        right: 70%;
+    }
+    100% {
+        right: 20%;
     }
 }
